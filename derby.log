@@ -1,0 +1,112 @@
+----------------------------------------------------------------
+Sun Nov 17 19:46:24 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-016e-7b8b-b6be-000001f00ce0 
+on database directory memory:C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/Wiliam/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_231-b11
+user.dir=C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Nov 17 19:46:58 BRT 2019:
+Shutting down instance a816c00e-016e-7b8b-b6be-000001f00ce0 on database directory memory:C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Sun Nov 17 19:47:04 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 292a80bc-016e-7b8b-b6be-000001f00ce0 
+on database directory memory:C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/Wiliam/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_231-b11
+user.dir=C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Nov 17 19:47:11 BRT 2019:
+Shutting down instance 292a80bc-016e-7b8b-b6be-000001f00ce0 on database directory memory:C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Sun Nov 17 19:47:14 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 87cf416a-016e-7b8b-b6be-000001f00ce0 
+on database directory memory:C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/Wiliam/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_231-b11
+user.dir=C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Nov 17 19:53:26 BRT 2019:
+Shutting down instance 87cf416a-016e-7b8b-b6be-000001f00ce0 on database directory memory:C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Sun Nov 17 19:53:29 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 44050218-016e-7b8b-b6be-000001f00ce0 
+on database directory memory:C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/Wiliam/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_231-b11
+user.dir=C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Nov 17 19:55:02 BRT 2019:
+Shutting down instance 44050218-016e-7b8b-b6be-000001f00ce0 on database directory memory:C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Sun Nov 17 19:55:04 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance ddcbc2c6-016e-7b8b-b6be-000001f00ce0 
+on database directory memory:C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/Wiliam/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_231-b11
+user.dir=C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Nov 17 19:57:09 BRT 2019:
+Shutting down instance ddcbc2c6-016e-7b8b-b6be-000001f00ce0 on database directory memory:C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Sun Nov 17 19:57:12 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance d5238374-016e-7b8b-b6be-000001f00ce0 
+on database directory memory:C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/Wiliam/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_231-b11
+user.dir=C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Nov 17 19:57:14 BRT 2019:
+Shutting down instance d5238374-016e-7b8b-b6be-000001f00ce0 on database directory memory:C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Sun Nov 17 19:57:17 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance aa0c4422-016e-7b8b-b6be-000001f00ce0 
+on database directory memory:C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/Wiliam/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_231-b11
+user.dir=C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Nov 17 19:58:23 BRT 2019:
+Shutting down instance aa0c4422-016e-7b8b-b6be-000001f00ce0 on database directory memory:C:\Users\Wiliam\Documents\workspace-spring-tool-suite-4-4.4.1.RELEASE\services\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
