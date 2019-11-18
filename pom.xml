@@ -34,8 +34,7 @@
 		<dependency>
 		    <groupId>com.microsoft.sqlserver</groupId>
 		    <artifactId>mssql-jdbc</artifactId>
-		    <version>8.1.0.jre13-preview</version>
-		    <scope>test</scope>
+		    <scope>runtime</scope>
 		</dependency>
 
 	
