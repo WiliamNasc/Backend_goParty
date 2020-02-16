@@ -11,12 +11,12 @@ import javax.persistence.Table;
 @Table(name = "eventos")
 public class Eventos {
 	
-	
-	//TODO colocar valor da entrada
 	private int id;
 	private String nome;
 	private String faixaEtaria;
 	private String classificacao;
+	private double valorEntrada;
+	private int qtdConvidados;
 	private String local;
 	private String dataEvento;
 	private String horaInicio;
@@ -82,6 +82,16 @@ public class Eventos {
 	public String getHoraFim() {
 		return horaFim;
 	}
+
+	@Column(name = "qtd_Convidados", nullable = false)
+	public int getQtdConvidados() {
+		return qtdConvidados;
+	}
+	
+	@Column(name = "valor_entrada", nullable = false)
+	public double getValorEntrada() {
+		return valorEntrada;
+	}
 	
 	public void setId(int id) {
 		this.id = id;
@@ -114,5 +124,14 @@ public class Eventos {
 	public void setHoraFim(String horaFim) {
 		this.horaFim = horaFim;
 	}
+
+	public void setValorEntrada(double valorEntrada) {
+		this.valorEntrada = valorEntrada;
+	}
+
+	public void setQtdConvidados(int qtdConvidados) {
+		this.qtdConvidados = qtdConvidados;
+	}
+
 
 }

@@ -1,5 +1,6 @@
 package com.goparty.services;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -34,8 +35,13 @@ public class EventosController {
 //	}
 
 	@GetMapping("/consultarTodos")
-	public List<Eventos> getAllEmployees() {
+	public List<Eventos> getEventos() {
 		return eventosrep.findAll();
+	}
+	
+	@GetMapping("consultarTodos/{id}")
+	public Optional<Eventos> getEventoById(@PathVariable(value = "id") int eventoId) {
+		return eventosrep.findById(eventoId);
 	}
 
 	@RequestMapping(method = RequestMethod.POST, value = "/incluir")
@@ -43,25 +49,13 @@ public class EventosController {
 		return eventosrep.save(evento);
 	}
 
-	@RequestMapping(value = "/atualizar/{id}", method = RequestMethod.PUT)
-	public ResponseEntity<Eventos> Put(@PathVariable(value = "id") int id, @Valid @RequestBody Eventos newEvento) {
-		Optional<Eventos> oldEvento = eventosrep.findById(id);
-		if (oldEvento.isPresent()) {
-			Eventos evento = oldEvento.get();
-			evento.setNome(newEvento.getNome());
-			evento.setFaixaEtaria(newEvento.getFaixaEtaria());
-			evento.setClassificacao(newEvento.getClassificacao());
-			evento.setLocal(newEvento.getLocal());
-			evento.setDataEvento(newEvento.getDataEvento());
-			evento.setHoraInicio(newEvento.getHoraInicio());
-			evento.setHoraFim(newEvento.getHoraFim());
-			eventosrep.save(evento);
-			return new ResponseEntity<Eventos>(evento, HttpStatus.OK);
-
-		} else
-			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+	@RequestMapping(value = "/atualizar", method = RequestMethod.PUT)
+	public Eventos updateEvento(@Valid @RequestBody Eventos evento) {
+		return eventosrep.save(evento);
+		
 	}
 
+//	@RequestMapping(value = "/deletar/{id}", method = { RequestMethod.DELETE})
 	@DeleteMapping("/deletar/{id}")
 	public String deleteEvento(@PathVariable int id) {
 		Optional<Eventos> eventos = eventosrep.findById(id);
@@ -71,5 +65,17 @@ public class EventosController {
 		} else {
 			return "Evento inexistente!";
 		}
+	}
+	
+	@GetMapping("/mostrar")
+	public int mostrar() {
+		Eventos e = new Eventos();
+		int TotalPart = 0;
+		while(e.getId() > 0) {
+			TotalPart += e.getId();
+		}
+		
+		System.out.println(e.getQtdConvidados());
+		return TotalPart;
 	}
 }
